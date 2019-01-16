@@ -1,0 +1,28 @@
+# 5 or 3
+def prog(N):
+    sum = 0
+    for i in range(N+1):
+        if ((i % 5) == 0) or ((i % 3) == 0):
+            sum = sum + i
+    return(sum)
+    
+    
+N = 1000
+print (prog(N))
+
+
+N = 10
+print (prog(N))
+
+
+
+#kvadratnoe yravnenie
+def f(b, c):
+    a1 = (-b + (b**2 - 4*c)**0.5) / 2
+    a2 = (-b - (b**2 - 4*c)**0.5) / 2
+    return a1, a2
+
+
+b = -2
+c = 1
+print (f(b, c))
