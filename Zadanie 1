@@ -1,4 +1,4 @@
-```
+```python
 # 5 or 3
 def prog(N):
     sum = 0
